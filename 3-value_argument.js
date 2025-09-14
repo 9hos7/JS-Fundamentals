@@ -1,5 +1,5 @@
 arg = process.argv[2] || "No argument";
-console.log(arg[0])
+console.log(arg)
 
 // if (arg === undefined) {
 //     console.log("no argument")
