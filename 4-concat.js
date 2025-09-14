@@ -1,4 +1,4 @@
-const arg = process.argv.slice(2);
-const result = arg.join(" is ");
+const firstArg = process.argv[2];
+const secondArg = process.argv[3];
 
-console.log(result)
+console.log(`${firstArg} is ${secondArg}`);
