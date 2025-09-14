@@ -8,4 +8,3 @@ if (arg.length == 0) {
     console.log("Arguments found!!")
 }
 
-console.log(arg)
