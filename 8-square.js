@@ -1,11 +1,14 @@
 const arg = process.argv[2];
-const letter = 'X';
 const num = Number(arg);
 
-if (isNaN(num) || arg.length === 0) {
-    console.log('Missing size')
+if (!arg || isNaN(num)) {
+  console.log("Missing size");
 } else {
-    for (i = 0; i < num; i++) {
-        process.stdout.write(letter)
+  for (let row = 0; row < num; row++) {
+    let line = "";
+    for (let col = 0; col < num; col++) {
+      line += "X";
     }
+    console.log(line);  // print one row at a time
+  }
 }
