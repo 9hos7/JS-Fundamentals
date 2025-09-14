@@ -1,7 +1,8 @@
-arg = process.argv.slice(2);
+arg = process.argv[2] || "No argument";
+console.log(arg)
 
-if (arg.length === 0) {
-    console.log("no argument")
-} else {
-    console.log(arg[0])
-}
+// if (arg === undefined) {
+//     console.log("no argument")
+// } else {
+//     console.log(arg[0])
+// }
