@@ -1,5 +1,5 @@
 const arg = process.argv.slice(2);
-const sentence = "C is good";
+const sentence = "C is fun";
 
 const num = Number(arg)
 
