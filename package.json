@@ -1,0 +1,23 @@
+{
+  "name": "js-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "0-javascript_is_amazing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9hos7/JS-Fundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9hos7/JS-Fundamentals/issues"
+  },
+  "homepage": "https://github.com/9hos7/JS-Fundamentals#readme",
+  "devDependencies": {
+    "@types/node": "^24.4.0"
+  }
+}
